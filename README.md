@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📊 Plataforma de Monitoreo y Observabilidad: Linux & PostgreSQL 16
 
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
@@ -395,3 +396,7 @@ sudo -u postgres psql -c "CREATE EXTENSION IF NOT EXISTS pg_stat_statements;"
 2. **Centralización de Logs (Loki + Promtail):** Desplegar Promtail sobre los ficheros de log generados por `/var/log/postgresql/` para cruzar en el mismo Dashboard las métricas y los errores semánticos crudos de Postgre.
 3. **Escalabilidad y Alta Disponibilidad (HA):** Requerimiento eventual de Patroni Backup Storage.
 4. **Despliegue Multi-Entornos con Ansible/Terraform:** Empaquetar el proceso de instalación manual descripto para lanzamientos "One-Click" en infraestructuras agnósticas (Cloud u On-Premises).
+=======
+# Monitoreo_y_Observabilidad
+Monitoreo_y_Observabilidad
+>>>>>>> ae989c7151e457709c99b12bdb9c2756d191b67a
