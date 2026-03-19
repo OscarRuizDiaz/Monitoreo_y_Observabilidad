@@ -1,0 +1,18 @@
+pg_stat_statements:
+  query: "SELECT queryid, calls, total_exec_time, rows, query FROM pg_stat_statements LIMIT 100"
+  metrics:
+    - queryid:
+        usage: "LABEL"
+        description: "ID of the query"
+    - calls:
+        usage: "COUNTER"
+        description: "Number of times executed"
+    - total_exec_time:
+        usage: "COUNTER"
+        description: "Total time spent executing the query"
+    - rows:
+        usage: "COUNTER"
+        description: "Total number of rows retrieved or affected"
+    - query:
+        usage: "LABEL"
+        description: "Query text string"
